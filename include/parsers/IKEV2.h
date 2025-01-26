@@ -16,7 +16,6 @@ typedef struct {
 
 typedef struct {
   IKEHeader header;
-  int hi;
 } IKEPacket;
 
 int IKEParseHeader(unsigned char *packet, IKEHeader *header);
